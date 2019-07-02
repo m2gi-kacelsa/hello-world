@@ -21,6 +21,7 @@ public class User {
     private Integer id;
     private String email;
     private String name;
+    private String surname;
     private String password;
     @OneToOne (mappedBy="user")
     private UserProfile userProfile;
